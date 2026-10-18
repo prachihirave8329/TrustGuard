@@ -1,0 +1,7 @@
+transaction_id,customer_id,product_id,product_name,quantity,unit_price,total_amount,transaction_date,rejection_reason
+,C101,P104,Mouse,1,800.0,800,2026-10-15,Missing transaction ID
+T0001,C103,P101,Laptop,1,55000.0,55000,2026-10-04,Duplicate transaction ID
+T0006,,P105,Monitor,4,12000.0,48000,2026-10-08,Missing customer ID
+T0013,C105,P105,Monitor,-2,12000.0,36000,2026-10-15,Invalid quantity
+T0021,C103,P103,Keyboard,2,-500.0,3000,2026-10-14,Invalid unit price
+T0031,C105,P102,Headphones,4,2000.0,8000,,Invalid transaction date

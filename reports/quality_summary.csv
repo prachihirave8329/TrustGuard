@@ -1,0 +1,4 @@
+metric,value
+raw_records,101
+clean_records,95
+rejected_records,6
